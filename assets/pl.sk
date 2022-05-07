@@ -1,0 +1,10 @@
+# made by: binary#3747
+# site: https://binary-mc.host
+# discord: https://discord.gg/bHfqE9QnKH
+
+
+
+on death of player:
+    attacker is a player
+    set {_head} to ("%victim%" parsed as offline player)'s skull
+    drop {_head} named "&c%victim%'s Head" at victim's location
