@@ -1,4 +1,0 @@
-on death of player:
-  drop 1 {head} to player's location
-  add 0.5 to y-coordinate of {head}
-  drop1 player_head at {head}
